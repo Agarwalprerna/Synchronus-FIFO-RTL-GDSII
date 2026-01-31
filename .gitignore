@@ -1,0 +1,11 @@
+# Build and simulation files
+*.log
+*.rpt
+*.vcd
+
+# OpenROAD / flow outputs
+runs/
+results/
+
+# Editor
+.vscode/
