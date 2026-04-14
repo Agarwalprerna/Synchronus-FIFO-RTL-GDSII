@@ -14,8 +14,21 @@ This repository implements a parameterized synchronous FIFO and demonstrates a c
 - Full / Empty and Almost-threshold flags
 - Single clock domain
 
+## 1) Load RTL file
+commands in Ubuntu line by line
+
+cd ~/Openlane
+cd designs
+mkdir sync_fifo  <your_foldername>
+cd sync_folder
+mkdir src config.json
+vi config.json        
+nano src/fifoRTL.v 
+
+
+
 ## 2) Synthesis by Yosys
-Paste these commands in Ubuntu:
+Paste these commands in Ubuntu line by line:
 ```bash
 cd ~/OpenLane
 make mount
