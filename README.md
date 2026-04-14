@@ -16,7 +16,7 @@ This repository implements a parameterized synchronous FIFO and demonstrates a c
 
 ## 1) Load RTL file
 commands in Ubuntu line by line
-
+```bash
 cd ~/Openlane
 cd designs
 mkdir sync_fifo  <your_foldername>
@@ -25,7 +25,7 @@ mkdir src config.json
 vi config.json        
 nano src/fifoRTL.v 
 
-
+```
 
 ## 2) Synthesis by Yosys
 Paste these commands in Ubuntu line by line:
